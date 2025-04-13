@@ -36,7 +36,7 @@ export default function RegisterScreen() {
         secureTextEntry
       />
 
-      <Button title="Crear cuenta" onPress={handleRegister} />
+      {/* <Button title="Crear cuenta" onPress={handleRegister} /> */}
       <Button
         title="¿Ya tienes cuenta? Inicia Sesión"
         onPress={() => router.push('/(auth)/login')}

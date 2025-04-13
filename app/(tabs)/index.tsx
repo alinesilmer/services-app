@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
-import AuthLayout from '../(auth)/_layout';
+import IndexTransition from '../components/TransitionIndex';
 import Login from '../(auth)/login'
 // import Register from '../(auth)/register'
 
@@ -9,7 +9,7 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       {/* <AuthLayout /> */}
-      <Login/>
+      <IndexTransition/>
     </View>
   );
 };

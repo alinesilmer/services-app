@@ -11,7 +11,7 @@ const Login = () => {
             <TextInput style={styleLogin.input} placeholder="Usuario" />
             <Text style={styleLogin.text}>Contraseña </Text>
             <TextInput style={styleLogin.input} placeholder="Contraseña" />
-            <Button style={styleLogin.button} title="Iniciar Sesión" onPress={() => {}} />
+            {/* <Button style={styleLogin.button} title="Iniciar Sesión" onPress={() => {}} /> */}
         </View>
     );
 
